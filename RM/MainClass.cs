@@ -21,15 +21,24 @@ namespace RM
             cmd.Parameters.AddWithValue("@user", user);
             cmd.Parameters.AddWithValue("@pass", pass);
 
-            DataTable dt = new DataTable(); 
+            DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            
-            if(dt.Rows.Count > 0)
+
+            if (dt.Rows.Count > 0)
             {
-                isValid = true; 
+                isValid = true;
+                USER = dt.Rows[0]["uName"].ToString();
             }
             return isValid;
+        }
+        // create property for username
+        public static string user;
+
+        public static string USER
+        {
+            get { return user; }
+            private set { user = value; }
         }
     }
 }
