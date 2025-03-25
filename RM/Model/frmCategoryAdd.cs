@@ -16,6 +16,8 @@ namespace RM.Model
         public frmCategoryAdd()
         {
             InitializeComponent();
+            this.guna2PictureBox1.Image = global::RM.Properties.Resources.pen_tool;
+
         }
 
         private void frmCategoryAdd_Load(object sender, EventArgs e)

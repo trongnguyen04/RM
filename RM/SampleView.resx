@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="guna2MessageDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADDQSURBVHhe7d15
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADDQSURBVHhe7d15
         nCVlfe/xw46CyqIOMON0PdUdUAfcxpiXS6R1ZuqpnmFYlBZzFWSRxSVKXCDJvYmj7Bpzr4k3SoKoaPQG
         wiYmiiyJC6iEgIKAaARRwyYwA8MMzMJ876uqWxh+zzMzvZw6farq83m93v/QPd3nnD71PD+6z6nqdIio
         r9P8+dvpBYv2UrLoZXKLMjn/FrnsOCX+ZCX5GUr9Z5T4r8j5S+X8FXL+Wjl/vZz/uZy/U84/ZKyV8zKK
@@ -333,7 +336,4 @@
         /JqeqP/7/yx+YrXsinb7AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="guna2MessageDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

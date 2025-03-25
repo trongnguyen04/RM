@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 378);
+            this.ClientSize = new System.Drawing.Size(352, 400);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Name = "frmCategoryAdd";
@@ -84,5 +84,6 @@
 
         private System.Windows.Forms.Label label2;
         public Guna.UI2.WinForms.Guna2TextBox txtName;
+
     }
 }

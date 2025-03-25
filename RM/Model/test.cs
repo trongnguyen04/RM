@@ -8,31 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RM
+namespace RM.Model
 {
-    public partial class SampleAdd : Form
+    public partial class test : SampleAdd
     {
-        public SampleAdd()
+        public test()
         {
             InitializeComponent();
         }
 
-        public virtual void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();   
-        }
-
-        public virtual void btnSave_Click(object sender, EventArgs e)
+        private void test_Load(object sender, EventArgs e)
         {
 
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
 
         }
